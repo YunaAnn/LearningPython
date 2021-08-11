@@ -5,7 +5,7 @@ def numeric_literals():
     hexadecimal = 0x12c
     float1 = 2.5
     float2 = 2.5e2
-    complex = 3.14j
+    complex = 1.23j
     print('Numeric literals')
     print(binary, decimal, octal, hexadecimal)
     print(float1, float2)
@@ -14,7 +14,7 @@ def numeric_literals():
 def string_literals():
     string = 'Hello world!'
     char = 'A'
-    multiline_string = '''This is a multiline string with more than one line code.'''
+    multiline_string = '''This is a multiline string with more than one line code. aaaaaaaaaaaaaaaaaaa. rgrsggsdhfdhgffasfhgredcsvrdyhdhfdreyhhd'''
     unicode = u'\u00dcnic\u00f6de'
     print('String literals')
     print('string: ', string)
