@@ -14,8 +14,10 @@ def pythagorean_theorem():
             print('True')
         else:
             print('False')
-    except:
-        print('Data error. Enter numbers!')
+    except ValueError:
+        print('Oops! These were no valid numbers. Try again...')
+
 
 if __name__ == '__main__':
     pythagorean_theorem()
+

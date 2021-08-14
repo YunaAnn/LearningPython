@@ -1,5 +1,6 @@
 import math
 
+
 def quadratic_equation():
     try:
         print('''quadratic equation: ax^2 + bx - c = 0''')
@@ -18,8 +19,8 @@ def quadratic_equation():
             print('x0 = ', x0)
         else:
             print('delta < 0 - no real roots')
-    except:
-        print('Data error. Enter numbers. Ex. a = 1, b = 3, c = -4')
+    except ValueError:
+        print('Oops! These were no valid numbers. Try again... Ex. a = 1, b = 3, c = -4')
 
 
 if __name__ == '__main__':
