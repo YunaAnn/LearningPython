@@ -8,4 +8,5 @@
 6. Break&continue.py - break and continue statements
 
 Math-tasks
-1. PythagoreanTheorem.py - Pythagorean theorem
+1. PythagoreanTheorem.py - Pythagorean theorem - a^2 + b^2 =? c^2
+2. QuadraticEquation.py - Quadratic Equation - ax^2 + bx + c = 0 - find roots.

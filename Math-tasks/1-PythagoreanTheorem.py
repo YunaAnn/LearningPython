@@ -11,9 +11,9 @@ def pythagorean_theorem():
         print('a^2 + b^2 = ', a**2 + b**2)
         print('c^2 = ', c**2)
         if a**2 + b**2 == c**2:
-            return print('True')
+            print('True')
         else:
-            return print('False')
+            print('False')
     except:
         print('Data error. Enter numbers!')
 
