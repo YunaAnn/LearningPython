@@ -1,5 +1,6 @@
 # LearningPython
 
+Basics:
 1. Output&Input.py - print, input, format and eval functions
 2. Literals.py - numeric, string and boolean literals
 3. Loops-if&else.py - if...else loop, if...elif...else loop 
@@ -7,6 +8,6 @@
 5. Loops-while.py - while loop, while...else
 6. Break&continue.py - break and continue statements
 
-Math-tasks
+Math-tasks:
 1. PythagoreanTheorem.py - Pythagorean theorem - a^2 + b^2 =? c^2
 2. QuadraticEquation.py - Quadratic Equation - ax^2 + bx + c = 0 - find roots.
