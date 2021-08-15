@@ -39,3 +39,4 @@ if __name__ == '__main__':
             print('Enter n >= 0')
     except ValueError:
         print('Oops! That was no valid number. Try again...')
+input('Press Enter to continue...')

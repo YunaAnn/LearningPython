@@ -20,4 +20,4 @@ def pythagorean_theorem():
 
 if __name__ == '__main__':
     pythagorean_theorem()
-
+input('Press Enter to continue...')
