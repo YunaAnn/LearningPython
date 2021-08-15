@@ -11,3 +11,4 @@ Basics:
 Math-tasks:
 1. PythagoreanTheorem.py - Pythagorean theorem - a^2 + b^2 =? c^2
 2. QuadraticEquation.py - Quadratic Equation - ax^2 + bx + c = 0 - find roots.
+3. Factorial.py - Factorial - iterative and recursive
