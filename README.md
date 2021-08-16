@@ -1,6 +1,7 @@
 # LearningPython
 
 Basics:
+0. Numbers&ArithmeticOperators.py - numbers and operators in Python
 1. Output&Input.py - print, input, format and eval functions
 2. Literals.py - numeric, string and boolean literals
 3. Loops-if&else.py - if...else loop, if...elif...else loop 
@@ -10,5 +11,6 @@ Basics:
 
 Math-tasks:
 1. PythagoreanTheorem.py - Pythagorean theorem - a^2 + b^2 =? c^2
-2. QuadraticEquation.py - Quadratic Equation - ax^2 + bx + c = 0 - find roots.
+2. QuadraticEquation.py - Quadratic Equation - ax^2 + bx + c = 0 - find roots
 3. Factorial.py - Factorial - iterative and recursive
+4. FibonacciNumbers.py - Fibonacci numbers - iterative and recursive
