@@ -1,6 +1,7 @@
 # LearningPython
 
 Basics:
+
 0. Numbers&ArithmeticOperators.py - numbers and operators in Python
 1. Output&Input.py - print, input, format and eval functions
 2. Boolean-logic.py - boolean logic
@@ -11,7 +12,12 @@ Basics:
 7. PythonModules.py - modules: math
 
 Math-tasks:
+
 1. PythagoreanTheorem.py - Pythagorean theorem - a^2 + b^2 =? c^2
 2. QuadraticEquation.py - Quadratic Equation - ax^2 + bx + c = 0 - find roots
 3. Factorial.py - Factorial - iterative and recursive
 4. FibonacciNumbers.py - Fibonacci numbers - iterative and recursive
+
+Algorithms:
+
+1. Capital_indexes.py - function returns a list of all the indexes in the string that have capital letters.
