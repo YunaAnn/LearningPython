@@ -1,13 +1,5 @@
 import math
 
-def do_I_like_trains():
-    # if & else
-    print('Do I like trains? Y/N')
-    answer = 'Y'
-    if answer == 'Y':
-        print('Yes, I like trains.')
-    else:
-        print('Noooo, I do not like trains!')
 
 def quadratic_equation():
     # if, elif, else
@@ -15,18 +7,19 @@ def quadratic_equation():
     a = 1
     b = 3
     c = -4
-    print('a = {0}, b = {1}, c = {2}'.format(a,b,c))
-    delta = (-b)**2-4*a*c
+    print('a = {0}, b = {1}, c = {2}'.format(a, b, c))
+    delta = (-b) ** 2 - 4 * a * c
     print('delta =', delta)
     if delta > 0:
         x1 = (-b - math.sqrt(delta)) / 2 * a
         x2 = (-b + math.sqrt(delta)) / 2 * a
-        print('x1 = {0}, x2 = {1}'.format(x1,x2))
+        print('x1 = {0}, x2 = {1}'.format(x1, x2))
     elif delta == 0:
-        x0 = -b/(2*a)
+        x0 = -b / (2 * a)
         print('x0 = ', x0)
     else:
         print('delta < 0 - no real roots')
+
 
 def check_if_number_is_positive_negative_or_zero():
     # nested if + input float type ex
@@ -39,7 +32,7 @@ def check_if_number_is_positive_negative_or_zero():
     else:
         print('Negative number')
 
+
 if __name__ == '__main__':
-    do_I_like_trains()
     quadratic_equation()
     check_if_number_is_positive_negative_or_zero()

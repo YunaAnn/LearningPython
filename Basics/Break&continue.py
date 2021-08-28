@@ -6,6 +6,7 @@ def break_statement():
         print(val)
     print('The end.')
 
+
 def continue_statement():
     print(' ------------------ ')
     print('Continue if "l" -> Hello world!')
@@ -14,6 +15,7 @@ def continue_statement():
             continue
         print(val)
     print('The end.')
+
 
 def print_odd_numbers():
     print(' ------------------ ')
@@ -30,4 +32,3 @@ if __name__ == '__main__':
     break_statement()
     continue_statement()
     print_odd_numbers()
-

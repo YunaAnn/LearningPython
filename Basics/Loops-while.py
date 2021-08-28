@@ -6,6 +6,7 @@ def while_loop():
         cycle = cycle + 1
     print('Done - cycle =', cycle)
 
+
 def multiplication_table():
     print(' -------------------- ')
     print('Multiplication table: ')
@@ -15,6 +16,7 @@ def multiplication_table():
         print('{0} * {1} = {2}'.format(number,count,result))
         count = count + 1
 
+
 def countdown():
     print(' -------------------- ')
     print('Countdown :')
@@ -23,6 +25,7 @@ def countdown():
         print(count)
         count = count - 1
     print ('Booooooooooom')
+
 
 def add_natural():
     print(' -------------------- ')
@@ -36,6 +39,7 @@ def add_natural():
         n = n - 1
     print (' sum = 1 + 2 + 3 + ... + n ')
     print (' n = 10 => 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 =', sum)
+
 
 def loop_with_else():
     print(' -------------------- ')
@@ -56,4 +60,3 @@ if __name__ == '__main__':
     countdown()
     add_natural()
     loop_with_else()
-

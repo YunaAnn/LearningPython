@@ -7,11 +7,13 @@ def sum_all_numbers_stored_in_a_list():
     print(5, 1, 7, 4, 10, 2, 3, 9, 8,sep='+')
     print('=', sum)
 
+
 def range_function():
     print(range(10))
     print(list(range(10)))
     print(list(range(10, 21)))
     print(list(range(0, 100, 10)))
+
 
 def for_loop_index():
     hobby = ['reading', 'listening to music', 'playing video games', 'watching movies']
@@ -22,12 +24,14 @@ def for_loop_index():
         string = string + ' ' + val
         print ('I like', string)
 
+
 def for_loop_with_else():
     data = [1, 4, 7, 2]
     for i in data:
         print(i)
     else:
         print ('No items left.')
+
 
 def for_loop_with_else_and_break():
     name = 'Adam'
@@ -38,7 +42,8 @@ def for_loop_with_else_and_break():
             break
     else:
         print ('No data found.')
-    
+  
+  
 if __name__ == '__main__':
     sum_all_numbers_stored_in_a_list()
     range_function()

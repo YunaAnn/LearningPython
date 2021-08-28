@@ -1,10 +1,13 @@
 import math
 
+
 def print_hi(name):
     print(f'Hello {name}')
 
+
 def print_pi_value():
     print('pi =', math.pi)
+
 
 def print_sep():
     print(1, 2, 3, 4, 5)
@@ -12,17 +15,19 @@ def print_sep():
     print(1, 2, 3, 4, 5, sep='*', end='$')
     print(end='\n')
 
+
 def output_format():
     print('I love {0} and {1}'.format('trains', 'pancakes'))
     print('I love {1} and {0}'.format('trains', 'pancakes'))
-    x = 5;
+    x = 5
     y = 7
     print('The value of x is {} and y is {}'.format(x, y))
 
+
 def enter_your_name():
-    print('Enter your name:')
-    name = input()
+    name = input('Enter your name:')
     print('Hello, ' + name)
+
 
 def input_num():
     num = input('Enter a number: ')
@@ -38,4 +43,4 @@ if __name__ == '__main__':
     print_sep()
     output_format()
     enter_your_name()
-	input_num()
+    input_num()
