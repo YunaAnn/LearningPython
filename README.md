@@ -10,6 +10,7 @@ Basics:
 - Loops-while.py - while loop, while...else
 - Break&continue.py - break and continue statements
 - Datetime.py - datetime module
+- Strings.py - Strings. Indexing, searching, concatenating, repeating, slicing strings.
 
 Math-tasks:
 
